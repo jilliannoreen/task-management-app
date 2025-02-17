@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+@custom-variant dark (&:is(.dark *));
+
+/* :root is the selector for defining global CSS variables (custom properties) for the entire document. */
+:root {
+
+  /* The color-scheme property tells the browser that the app supports both light and dark modes. */
+  color-scheme: light dark;
+
+
+}
+
+
+
